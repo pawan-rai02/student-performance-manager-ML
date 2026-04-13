@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python *)",
+      "Bash(venv\\scripts\\activate)",
+      "Bash(pip install *)",
+      "Bash(conda *)"
+    ]
+  },
+  "$version": 3
+}
