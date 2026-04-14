@@ -1,0 +1,3 @@
+[2026-04-14 23:57:12,494] numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+[2026-04-14 23:57:14,766] root - INFO - Entered the data ingestion method or component
+[2026-04-14 23:57:14,780] root - ERROR - Error occurred while initiating data ingestion

@@ -1,9 +1,11 @@
-Metadata-Version: 2.4
+Metadata-Version: 2.1
 Name: mlproject
 Version: 0.0.1
 Author: Pawan
 Author-email: pawanvirat32@gmail.com
 Requires-Dist: pandas
-Dynamic: author
-Dynamic: author-email
-Dynamic: requires-dist
+Requires-Dist: matplotlib
+Requires-Dist: seaborn
+Requires-Dist: scikit-learn
+Requires-Dist: xgboost
+Requires-Dist: catboost
