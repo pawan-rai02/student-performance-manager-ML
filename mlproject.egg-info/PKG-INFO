@@ -1,4 +1,4 @@
-Metadata-Version: 2.1
+Metadata-Version: 2.4
 Name: mlproject
 Version: 0.0.1
 Author: Pawan
@@ -9,3 +9,6 @@ Requires-Dist: seaborn
 Requires-Dist: scikit-learn
 Requires-Dist: xgboost
 Requires-Dist: catboost
+Dynamic: author
+Dynamic: author-email
+Dynamic: requires-dist

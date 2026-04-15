@@ -1,0 +1,9 @@
+[2026-04-15 23:24:47,193] root - INFO - Entered the data ingestion method or component
+[2026-04-15 23:24:47,198] root - INFO - Read the dataset as dataframe
+[2026-04-15 23:24:47,202] root - INFO - Train test split initiated
+[2026-04-15 23:24:47,211] root - INFO - Ingestion of the data is completed
+[2026-04-15 23:24:47,240] root - INFO - Read train and test data completed
+[2026-04-15 23:24:47,240] root - INFO - Obtaining preprocessing object
+[2026-04-15 23:24:47,240] root - INFO - Data Transformation initiated
+[2026-04-15 23:24:47,240] root - INFO - Numerical and Categorical pipeline created
+[2026-04-15 23:24:47,240] root - ERROR - Error occurred while initiating data transformation
