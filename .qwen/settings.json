@@ -5,7 +5,11 @@
       "Bash(venv\\scripts\\activate)",
       "Bash(pip install *)",
       "Bash(conda *)",
-      "Bash(type *)"
+      "Bash(type *)",
+      "Bash(dir *)",
+      "Bash(taskkill *)",
+      "Bash(tasklist)",
+      "Bash(findstr *)"
     ]
   },
   "$version": 3
