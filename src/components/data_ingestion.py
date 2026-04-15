@@ -11,7 +11,12 @@ from dataclasses import dataclass
 from src.utils import save_object
 
 from src.components.data_transformation import DataTransformation
+from src.components.data_transformation import DataTransformationConfig
 
+from src.components.model_trainer import ModelTrainer
+from src.components.model_trainer import ModelTrainerConfig
+
+import os
 
 
 @dataclass
@@ -45,7 +50,6 @@ class DataIngestion:
             return (
                 self.ingestion_config.train_data_path,
                 self.ingestion_config.test_data_path,
-                self.ingestion_config.raw_data_path
             )
         except Exception as e:
             logging.error("Error occurred while initiating data ingestion")
@@ -53,4 +57,11 @@ class DataIngestion:
         
 if __name__ == "__main__":
     obj = DataIngestion()
-    obj.initiate_data_ingestion()   
+    train_data, test_data = obj.initiate_data_ingestion()   
+
+    data_transformation = DataTransformation()
+    train_arr, test_arr, _ = data_transformation.initiate_data_transformation(train_path= train_data, test_path=test_data)
+    
+
+    modeltrainer = ModelTrainer()
+    modeltrainer.initiate_model_trainer(train_arr, test_arr)
